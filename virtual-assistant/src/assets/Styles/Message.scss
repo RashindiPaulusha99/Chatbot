@@ -1,0 +1,93 @@
+.chatContainer{
+    box-shadow: none;
+    overflow-y: scroll;
+    position: fixed;
+    right: 0;
+    top: 65px;
+    width: 100%;
+    padding: 15px;
+    height:80vh;
+    background-color:white
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px){
+    .chatContainer{
+        height:70vh;
+    }
+}
+
+.listItemContainer{
+    margin: -4px;
+}
+
+.messageDiv{
+    max-width:70vw;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.12);
+    border-radius:8.92308px;
+    padding: 4px;
+}
+
+.deleteDiv{
+    background-color:white;
+    width:260px;
+    height:30%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    box-shadow:rgba(0, 0, 0, 0.16) 0 1px 4px;
+    z-index:6;
+    border-radius: 8px;
+    display:flex;
+    flex-direction:column;
+}
+
+.buttonDivForDelete{
+    display:flex;
+    justify-content:center;
+    padding-left:2px;
+    padding-right:2px;
+    height:10%;
+    position:relative;
+    padding-top:80px;
+    font-family:system-ui;
+}
+
+.vmBox{
+    width: 25%;
+    height: 81px;
+    position: relative;
+    top: 27px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px 0;
+    display: flex;
+}
+
+.bot{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top:-26px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.title{
+    position: relative;
+    top: -42px;
+    font-family: cursive;
+}
+
+.botIcon{
+    width: 44px;
+    height: 44px;
+    display: inline;
+}
