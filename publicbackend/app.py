@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app)
 CORS(app, resources={r"/*": {"origins": "*"}})
 # Replace with OpenAI API key
-openai.api_key = "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"
+openai.api_key = "key"
 
 # Replace with model ID
 model_id = "curie:ft-ceyentra-technologies-pvt-ltd-2023-04-28-08-28-09"
